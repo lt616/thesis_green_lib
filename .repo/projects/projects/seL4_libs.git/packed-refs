@@ -1,0 +1,13 @@
+# pack-refs with: peeled fully-peeled 
+01cbd4078e4531dff2e3e7e0cf606bc58c3e1799 refs/remotes/seL4/2.0.x-compatible
+f9fc628b82f39dad07019aad027e6efb2d89dcb0 refs/remotes/seL4/2.1.x-compatible
+4961ff8adbba3dc42c07c8cd48b4bedff6faaa5f refs/remotes/seL4/3.0.x-compatible
+f7c764eed04f8675b5d25633ee185dd03a7f466a refs/remotes/seL4/3.1.x-compatible
+b89aea230d4fdeca8410ffc2f5d1fd7b6e967b66 refs/remotes/seL4/3.2.x-compatible
+6bf4a78776c741dbfceca73f88cf169bcf8a6f9b refs/remotes/seL4/4.0.x-compatible
+148c67935b457a69b52a103ec53a6ce6c75be595 refs/remotes/seL4/5.0.x-compatible
+60c6d51324d32c70a70ceb6f7c3d548c7aab14aa refs/remotes/seL4/5.1.x-compatible
+5f4940e9c1af6c9e55f0a77b898e268bf24762ae refs/remotes/seL4/5.2.x-compatible
+9214341c350f6ffd9bfc5d5d36b5be4c5badf39f refs/remotes/seL4/master
+e429a7a1767d48160a85c6fde64952b8692e5586 refs/remotes/seL4/rt
+a617c554db8665f3fb9a0049ece736d81e208107 refs/tags/0.0.1-rt-dev

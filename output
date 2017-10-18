@@ -1,0 +1,839 @@
+[Enter `^Ec?' for help]
+ÿÿ
+PXELINUX 6.03 PXE 20150816 Copyright (C) 1994-2014 H. Peter Anvin et al
+boot: 
+Loading sel4kernel... ok
+Loading sel4rootserver... ok
+
+Boot config: parsing cmdline 'sel4kernel'
+Boot config: console_port = 0x3f8
+Boot config: debug_port = 0x3f8
+Boot config: disable_iommu = false
+Parsing GRUB physical memory map
+	Physical Memory Region from 0 size 91800 type 1
+	Physical Memory Region from 91800 size e800 type 2
+	Physical Memory Region from e0000 size 20000 type 2
+	Physical Memory Region from 100000 size d5405000 type 1
+Adding physical memory region 0x100000-0x1fc00000
+	Physical Memory Region from d5505000 size 7000 type 4
+	Physical Memory Region from d550c000 size 436000 type 1
+	Physical Memory Region from d5942000 size 493000 type 2
+	Physical Memory Region from d5dd5000 size 5115000 type 1
+	Physical Memory Region from daeea000 size 116000 type 2
+	Physical Memory Region from db000000 size 75f000 type 1
+	Physical Memory Region from db75f000 size a1000 type 2
+	Physical Memory Region from db800000 size 7ae000 type 1
+	Physical Memory Region from dbfae000 size 52000 type 3
+	Physical Memory Region from dc000000 size 171d000 type 1
+	Physical Memory Region from dd71d000 size e3000 type 4
+	Physical Memory Region from dd800000 size 1611000 type 1
+	Physical Memory Region from dee11000 size 1ef000 type 2
+	Physical Memory Region from f8000000 size 4000000 type 2
+	Physical Memory Region from fec00000 size 1000 type 2
+	Physical Memory Region from fed00000 size 4000 type 2
+	Physical Memory Region from fed1c000 size 4000 type 2
+	Physical Memory Region from fee00000 size 1000 type 2
+	Physical Memory Region from ff000000 size 1000000 type 2
+	Physical memory region not addressable
+Multiboot gave us no video information
+Kernel loaded to: start=0x100000 end=0x13f000 size=0x3f000 entry=0x10005e
+ACPI: RSDP paddr=0xf0490
+ACPI: RSDP vaddr=0xdfcf0490
+ACPI: RSDT paddr=0xdbfee028
+ACPI: RSDT vaddr=0xdffee028
+ACPI: FADT paddr=0xdbfee118
+ACPI: FADT vaddr=0xdffee118
+ACPI: FADT flags=0x384a5
+ACPI: MADT paddr=0xdbff9bf8
+ACPI: MADT vaddr=0xdfff9bf8
+ACPI: MADT apic_addr=0xfee00000
+ACPI: MADT flags=0x1
+ACPI: MADT_APIC apic_id=0x0
+ACPI: MADT_APIC apic_id=0x2
+ACPI: Not recording this APIC, only support 1
+ACPI: MADT_APIC apic_id=0x4
+ACPI: Not recording this APIC, only support 1
+ACPI: MADT_APIC apic_id=0x6
+ACPI: Not recording this APIC, only support 1
+ACPI: MADT_IOAPIC ioapic_id=8 ioapic_addr=0xfec00000 gsib=0
+ACPI: MADT_ISO bus=0 source=0 gsi=2 flags=0x0
+ACPI: MADT_ISO bus=0 source=9 gsi=9 flags=0xd
+ACPI: 1 CPU(s) detected
+Detected 1 boot module(s):
+  module #0: start=0x1c5000 end=0x5a408c size=0x3df08c name='sel4rootserver'
+ELF-loading userland images from boot modules:
+size=0x3da000 v_entry=0x8059dd2 v_start=0x8048000 v_end=0x8422000 p_start=0x5a5000 p_end=0x97f000
+Moving loaded userland images to final location: from=0x5a5000 to=0x13f000 size=0x3da000
+Starting node #0 with APIC ID 0
+Booting all finished, dropped to user space
+Searching for ACPI_SIG_RSDP
+Parsing ACPI tables
+Skipping table FPDTD, unknown
+Skipping table SLICv, unknown
+Skipping table LPIT\, unknown
+Warning: skipping table ACPI XSDT
+1 untypeds of size 11
+3 untypeds of size 12
+4 untypeds of size 13
+5 untypeds of size 14
+3 untypeds of size 15
+4 untypeds of size 16
+5 untypeds of size 17
+5 untypeds of size 18
+5 untypeds of size 19
+4 untypeds of size 20
+3 untypeds of size 21
+3 untypeds of size 22
+4 untypeds of size 23
+2 untypeds of size 24
+3 untypeds of size 25
+3 untypeds of size 26
+3 untypeds of size 27
+1 untypeds of size 28
+6 untypeds of size 29
+Switching to a safer, bigger stack... 
+Tests begin
+Test join - nested join
+------------ start ------------
+Created thread 1
+Thread 1 start to run..
+Thread 1 created thread 2.
+Thread 1 continue..
+Thread 2 start to run..
+Thread 2 created thread 3.
+Thread 2 continue..
+Thread 3 start to run..
+Thread 3 created thread 4.
+Thread 3 continue..
+Thread 4 start to run..
+Thread 4 created thread 5.
+Thread 4 continue..
+Thread 5 start to run..
+Thread 5 created thread 6.
+Thread 5 continue..
+Thread 6 start to run..
+Thread 6 created thread 7.
+Thread 6 continue..
+Thread 7 start to run..
+Thread 7 created thread 8.
+Thread 7 continue..
+Thread 8 start to run..
+Thread 8 created thread 9.
+Thread 8 continue..
+Thread 9 start to run..
+Thread 9 created thread 10.
+Thread 9 continue..
+Thread 10 start to run..
+Thread 10 created thread 11.
+Thread 10 continue..
+Thread 11 start to run..
+Thread 11 created thread 12.
+Thread 11 continue..
+Thread 12 start to run..
+Thread 12 created thread 13.
+Thread 12 continue..
+Thread 13 start to run..
+Thread 13 created thread 14.
+Thread 13 continue..
+Thread 14 start to run..
+Thread 14 created thread 15.
+Thread 14 continue..
+Thread 15 start to run..
+Thread 15 created thread 16.
+Thread 15 continue..
+Thread 16 start to run..
+Thread 16 created thread 17.
+Thread 16 continue..
+Thread 17 start to run..
+Thread 17 created thread 18.
+Thread 17 continue..
+Thread 18 start to run..
+Thread 18 created thread 19.
+Thread 18 continue..
+Thread 19 start to run..
+Thread 19 created thread 20.
+Thread 19 continue..
+Thread 20 start to run..
+Thread 20 exit.
+Thread 19 exit.
+Thread 18 exit.
+Thread 17 exit.
+Thread 16 exit.
+Thread 15 exit.
+Thread 14 exit.
+Thread 13 exit.
+Thread 12 exit.
+Thread 11 exit.
+Thread 10 exit.
+Thread 9 exit.
+Thread 8 exit.
+Thread 7 exit.
+Thread 6 exit.
+Thread 5 exit.
+Thread 4 exit.
+Thread 3 exit.
+Thread 2 exit.
+Thread 1 exit.
+Test join - nested join passed.
+------------ end ------------
+
+Test synchronous primitives, sleep and wakeup - producer_consumer scenario
+------------ start ------------
+
+seL4 Test
+=========
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 2147483648, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 1073741824, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 536870912, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 268435456, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 134217728, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 67108864, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 33554432, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 16777216, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 8388608, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 4194304, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 2097152, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 1048576, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 524288, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 262144, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 131072, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 65536, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 32768, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 16384, error 1
+
+vka_alloc_object_at_maybe_dev@object.h:59 Failed to allocate object of size 8192, error 1
+
+start
+first consumer!
+RECV a consumer: 0 0 thread 0x83381c0
+RECV a producer: 1 0 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 2 0 thread 0x83381c0
+RECV a producer: 3 0 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 4 0 thread 0x83381c0
+RECV a producer: 5 0 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 6 0 thread 0x83381c0
+RECV a producer: 7 0 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 8 0 thread 0x83381c0
+RECV a producer: 9 0 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 10 0 thread 0x83381c0
+RECV a producer: 11 0 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 12 0 thread 0x83381c0
+RECV a producer: 13 0 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 14 0 thread 0x83381c0
+RECV a producer: 15 0 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 16 0 thread 0x83381c0
+RECV a producer: 17 0 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 18 0 thread 0x83381c0
+RECV a producer: 19 0 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 1 thread 0x83381c0
+RECV a consumer: 2 1 thread 0x8337b90
+RECV a consumer: 4 1 thread 0x8337c40
+RECV a consumer: 6 1 thread 0x8337cf0
+RECV a consumer: 8 1 thread 0x8337da0
+RECV a consumer: 10 1 thread 0x8337e50
+RECV a consumer: 12 1 thread 0x8337f00
+RECV a consumer: 14 1 thread 0x8337fb0
+RECV a consumer: 16 1 thread 0x8338060
+RECV a consumer: 18 1 thread 0x8338110
+RECV a producer: 1 1 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 2 thread 0x83381c0
+RECV a producer: 3 1 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 2 thread 0x8337b90
+RECV a producer: 5 1 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 2 thread 0x8337c40
+RECV a producer: 7 1 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 2 thread 0x8337cf0
+RECV a producer: 9 1 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 2 thread 0x8337da0
+RECV a producer: 11 1 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 2 thread 0x8337e50
+RECV a producer: 13 1 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 2 thread 0x8337f00
+RECV a producer: 15 1 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 2 thread 0x8337fb0
+RECV a producer: 17 1 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 2 thread 0x8338060
+RECV a producer: 19 1 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 2 thread 0x8338110
+RECV a producer: 1 2 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 3 thread 0x83381c0
+RECV a producer: 3 2 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 3 thread 0x8337b90
+RECV a producer: 5 2 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 3 thread 0x8337c40
+RECV a producer: 7 2 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 3 thread 0x8337cf0
+RECV a producer: 9 2 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 3 thread 0x8337da0
+RECV a producer: 11 2 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 3 thread 0x8337e50
+RECV a producer: 13 2 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 3 thread 0x8337f00
+RECV a producer: 15 2 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 3 thread 0x8337fb0
+RECV a producer: 17 2 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 3 thread 0x8338060
+RECV a producer: 19 2 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 3 thread 0x8338110
+RECV a producer: 1 3 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 4 thread 0x83381c0
+RECV a producer: 3 3 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 4 thread 0x8337b90
+RECV a producer: 5 3 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 4 thread 0x8337c40
+RECV a producer: 7 3 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 4 thread 0x8337cf0
+RECV a producer: 9 3 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 4 thread 0x8337da0
+RECV a producer: 11 3 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 4 thread 0x8337e50
+RECV a producer: 13 3 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 4 thread 0x8337f00
+RECV a producer: 15 3 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 4 thread 0x8337fb0
+RECV a producer: 17 3 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 4 thread 0x8338060
+RECV a producer: 19 3 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 4 thread 0x8338110
+RECV a producer: 1 4 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 5 thread 0x83381c0
+RECV a producer: 3 4 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 5 thread 0x8337b90
+RECV a producer: 5 4 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 5 thread 0x8337c40
+RECV a producer: 7 4 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 5 thread 0x8337cf0
+RECV a producer: 9 4 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 5 thread 0x8337da0
+RECV a producer: 11 4 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 5 thread 0x8337e50
+RECV a producer: 13 4 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 5 thread 0x8337f00
+RECV a producer: 15 4 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 5 thread 0x8337fb0
+RECV a producer: 17 4 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 5 thread 0x8338060
+RECV a producer: 19 4 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 5 thread 0x8338110
+RECV a producer: 1 5 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 6 thread 0x83381c0
+RECV a producer: 3 5 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 6 thread 0x8337b90
+RECV a producer: 5 5 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 6 thread 0x8337c40
+RECV a producer: 7 5 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 6 thread 0x8337cf0
+RECV a producer: 9 5 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 6 thread 0x8337da0
+RECV a producer: 11 5 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 6 thread 0x8337e50
+RECV a producer: 13 5 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 6 thread 0x8337f00
+RECV a producer: 15 5 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 6 thread 0x8337fb0
+RECV a producer: 17 5 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 6 thread 0x8338060
+RECV a producer: 19 5 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 6 thread 0x8338110
+RECV a producer: 1 6 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 7 thread 0x83381c0
+RECV a producer: 3 6 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 7 thread 0x8337b90
+RECV a producer: 5 6 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 7 thread 0x8337c40
+RECV a producer: 7 6 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 7 thread 0x8337cf0
+RECV a producer: 9 6 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 7 thread 0x8337da0
+RECV a producer: 11 6 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 7 thread 0x8337e50
+RECV a producer: 13 6 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 7 thread 0x8337f00
+RECV a producer: 15 6 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 7 thread 0x8337fb0
+RECV a producer: 17 6 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 7 thread 0x8338060
+RECV a producer: 19 6 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 7 thread 0x8338110
+RECV a producer: 1 7 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 8 thread 0x83381c0
+RECV a producer: 3 7 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 8 thread 0x8337b90
+RECV a producer: 5 7 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 8 thread 0x8337c40
+RECV a producer: 7 7 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 8 thread 0x8337cf0
+RECV a producer: 9 7 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 8 thread 0x8337da0
+RECV a producer: 11 7 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 8 thread 0x8337e50
+RECV a producer: 13 7 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 8 thread 0x8337f00
+RECV a producer: 15 7 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 8 thread 0x8337fb0
+RECV a producer: 17 7 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 8 thread 0x8338060
+RECV a producer: 19 7 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 8 thread 0x8338110
+RECV a producer: 1 8 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 9 thread 0x83381c0
+RECV a producer: 3 8 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 9 thread 0x8337b90
+RECV a producer: 5 8 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 9 thread 0x8337c40
+RECV a producer: 7 8 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 9 thread 0x8337cf0
+RECV a producer: 9 8 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 9 thread 0x8337da0
+RECV a producer: 11 8 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 9 thread 0x8337e50
+RECV a producer: 13 8 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 9 thread 0x8337f00
+RECV a producer: 15 8 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 9 thread 0x8337fb0
+RECV a producer: 17 8 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 9 thread 0x8338060
+RECV a producer: 19 8 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 9 thread 0x8338110
+RECV a producer: 1 9 thread 0x8334a20
+get one from producer 0x8334a20!
+buffer now: 1
+take one by consumer 0x83381c0!
+buffer now: 0
+RECV a consumer: 0 10 thread 0x83381c0
+RECV a producer: 3 9 thread 0x8337560
+get one from producer 0x8337560!
+buffer now: 1
+take one by consumer 0x8337b90!
+buffer now: 0
+RECV a consumer: 2 10 thread 0x8337b90
+RECV a producer: 5 9 thread 0x8337610
+get one from producer 0x8337610!
+buffer now: 1
+take one by consumer 0x8337c40!
+buffer now: 0
+RECV a consumer: 4 10 thread 0x8337c40
+RECV a producer: 7 9 thread 0x83376c0
+get one from producer 0x83376c0!
+buffer now: 1
+take one by consumer 0x8337cf0!
+buffer now: 0
+RECV a consumer: 6 10 thread 0x8337cf0
+RECV a producer: 9 9 thread 0x8337770
+get one from producer 0x8337770!
+buffer now: 1
+take one by consumer 0x8337da0!
+buffer now: 0
+RECV a consumer: 8 10 thread 0x8337da0
+RECV a producer: 11 9 thread 0x8337820
+get one from producer 0x8337820!
+buffer now: 1
+take one by consumer 0x8337e50!
+buffer now: 0
+RECV a consumer: 10 10 thread 0x8337e50
+RECV a producer: 13 9 thread 0x83378d0
+get one from producer 0x83378d0!
+buffer now: 1
+take one by consumer 0x8337f00!
+buffer now: 0
+RECV a consumer: 12 10 thread 0x8337f00
+RECV a producer: 15 9 thread 0x8337980
+get one from producer 0x8337980!
+buffer now: 1
+take one by consumer 0x8337fb0!
+buffer now: 0
+RECV a consumer: 14 10 thread 0x8337fb0
+RECV a producer: 17 9 thread 0x8337a30
+get one from producer 0x8337a30!
+buffer now: 1
+take one by consumer 0x8338060!
+buffer now: 0
+RECV a consumer: 16 10 thread 0x8338060
+RECV a producer: 19 9 thread 0x8337ae0
+get one from producer 0x8337ae0!
+buffer now: 1
+take one by consumer 0x8338110!
+buffer now: 0
+RECV a consumer: 18 10 thread 0x8338110
+end of test
+------------ end ------------
+
+

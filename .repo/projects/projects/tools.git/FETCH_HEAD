@@ -1,0 +1,10 @@
+eaf835135acf8bc5ae631b021eddb93816ec873b		branch '2.0.x-compatible' of https://github.com/seL4/seL4_tools
+215b802f2addeb99a7e3a733acc3eb2fffd23d2c		branch '2.1.x-compatible' of https://github.com/seL4/seL4_tools
+dfd11fe348bd95577686e376abe68c945a0244e0		branch '3.0.x-compatible' of https://github.com/seL4/seL4_tools
+c9db51f0396970fd4db224325d73c9ee3d7f0eb3		branch '3.1.x-compatible' of https://github.com/seL4/seL4_tools
+9d75312da3338b913d1a7e48497b0fa6d4faa2ed		branch '3.2.x-compatible' of https://github.com/seL4/seL4_tools
+d185d574db8332d83da01f3799d9ef53bebba80e		branch '4.0.x-compatible' of https://github.com/seL4/seL4_tools
+fe5db52215e551771fe6662591edcacd727de0d9		branch '5.0.x-compatible' of https://github.com/seL4/seL4_tools
+a9295b6efd52f0956040e0ff9e6674af867f2b61		branch '5.1.x-compatible' of https://github.com/seL4/seL4_tools
+ee37ef2615a2acbd3688e66136f5b3deaadab125		branch '5.2.x-compatible' of https://github.com/seL4/seL4_tools
+935ee68769a1701613385a893b8dcf40d58ea2a9		branch 'master' of https://github.com/seL4/seL4_tools

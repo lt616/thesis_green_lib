@@ -1,0 +1,10 @@
+7e306a51ecc7bf62edb68aa237223dc0c92c0f72		branch '2.0.x-compatible' of https://github.com/seL4/util_libs
+f8990f07e5f609189546a0690f71b6af9b2e2507		branch '2.1.x-compatible' of https://github.com/seL4/util_libs
+aa74fc9067b039734b8ff2e76b04e65b28515d10		branch '3.0.x-compatible' of https://github.com/seL4/util_libs
+755a5c6fd82ff8cc29f5c5b11a3f16d2e8047df7		branch '3.1.x-compatible' of https://github.com/seL4/util_libs
+38d1eb828e8deb39e69423af46a02c57b1508ec4		branch '3.2.x-compatible' of https://github.com/seL4/util_libs
+b8787e8db4c73a44c1efa3dc48e3a494e6aa924c		branch '4.0.x-compatible' of https://github.com/seL4/util_libs
+1139f4facb089861aea3661d9be342262d1d6139		branch '5.0.x-compatible' of https://github.com/seL4/util_libs
+accfcac9308f84535d842bbfe2b321ac1374e2c5		branch '5.1.x-compatible' of https://github.com/seL4/util_libs
+131c0ba4f7d7da631d1788cdb37ec7943398e993		branch '5.2.x-compatible' of https://github.com/seL4/util_libs
+27104d0d4790489b6f2e46e2701d15f47fcc7f24		branch 'master' of https://github.com/seL4/util_libs

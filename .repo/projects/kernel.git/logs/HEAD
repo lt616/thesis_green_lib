@@ -1,0 +1,9 @@
+fdc96a183fe770a44a9bc8e23033b10ddc2ac6f8 fdc96a183fe770a44a9bc8e23033b10ddc2ac6f8 axjllt <axjllt@gmail.com> 1506934979 +1100	checkout: moving from fdc96a183fe770a44a9bc8e23033b10ddc2ac6f8 to context_switch_benchmarks
+fdc96a183fe770a44a9bc8e23033b10ddc2ac6f8 9b5a6712e892d52b5c2b4e6b2019212bf43398f9 axjllt <axjllt@gmail.com> 1506935331 +1100	commit: Add benchmarks for checking kernel register save and restore costs
+9b5a6712e892d52b5c2b4e6b2019212bf43398f9 9b5a6712e892d52b5c2b4e6b2019212bf43398f9 axjllt <axjllt@gmail.com> 1506935367 +1100	checkout: moving from context_switch_benchmarks to mode_switch_benchmarks
+9b5a6712e892d52b5c2b4e6b2019212bf43398f9 09ba9fc887491770af303909d4a08ac7718cf86e axjllt <axjllt@gmail.com> 1506935436 +1100	checkout: moving from mode_switch_benchmarks to seL4/master
+09ba9fc887491770af303909d4a08ac7718cf86e 9b5a6712e892d52b5c2b4e6b2019212bf43398f9 axjllt <axjllt@gmail.com> 1506935461 +1100	checkout: moving from 09ba9fc887491770af303909d4a08ac7718cf86e to mode_switch_benchmarks
+9b5a6712e892d52b5c2b4e6b2019212bf43398f9 09ba9fc887491770af303909d4a08ac7718cf86e axjllt <axjllt@gmail.com> 1506935477 +1100	reset: moving to seL4/master
+09ba9fc887491770af303909d4a08ac7718cf86e 9b5a6712e892d52b5c2b4e6b2019212bf43398f9 axjllt <axjllt@gmail.com> 1506935534 +1100	checkout: moving from mode_switch_benchmarks to context_switch_benchmarks
+9b5a6712e892d52b5c2b4e6b2019212bf43398f9 09ba9fc887491770af303909d4a08ac7718cf86e axjllt <axjllt@gmail.com> 1506935606 +1100	checkout: moving from context_switch_benchmarks to mode_switch_benchmarks
+09ba9fc887491770af303909d4a08ac7718cf86e fdc96a183fe770a44a9bc8e23033b10ddc2ac6f8 axjllt <axjllt@gmail.com> 1506935610 +1100	reset: moving to fdc96a183fe770a44a9bc8e23033b10ddc2ac6f8

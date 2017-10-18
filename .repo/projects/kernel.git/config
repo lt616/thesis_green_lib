@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+[filter "lfs"]
+	smudge = git-lfs smudge --skip -- %f
+[remote "seL4"]
+	url = https://github.com/seL4/seL4.git
+	projectname = seL4.git
+	fetch = +refs/heads/*:refs/remotes/seL4/*
+[remote "cherry"]
+	url = git@github.com:lt616/seL4.git
+	fetch = +refs/heads/*:refs/remotes/cherry/*

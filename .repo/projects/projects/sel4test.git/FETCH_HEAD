@@ -1,0 +1,14 @@
+bba02c8f60d6cf3307b7697f9200a9d5cd4a25a9		branch '1.0.x-compatible' of https://github.com/seL4/sel4test
+e9821f35bcb512e260b2794192af2f1ba352750a		branch '2.0.x-compatible' of https://github.com/seL4/sel4test
+588938309183ba79f42cbd5f57f4cd53738432a2		branch '2.1.x-compatible' of https://github.com/seL4/sel4test
+65cdb3dbf0f6e563a185e36a08665ede0a36fc65		branch '3.0.x-compatible' of https://github.com/seL4/sel4test
+d838039f693e18116c0d1fa78f59243bbfbed843		branch '3.1.x-compatible' of https://github.com/seL4/sel4test
+05ab12faac645b1ca0b6319fef3ddda74ac805ff		branch '3.2.x-compatible' of https://github.com/seL4/sel4test
+aebaafa2e73f05ced1d823e2e6157bb5a9306a19		branch '4.0.x-compatible' of https://github.com/seL4/sel4test
+ff71c7209fb2150f981114f3531162c83f7625d2		branch '5.0.x-compatible' of https://github.com/seL4/sel4test
+26d9993b122d2ef545c329c84242770dc7dd19ba		branch '5.1.x-compatible' of https://github.com/seL4/sel4test
+c686cba28c1193d4336b02da32dc04058d872e85		branch '5.2.x-compatible' of https://github.com/seL4/sel4test
+b5ac337a75cfdd13e6b95ed471280477ef2e3df0		branch 'master' of https://github.com/seL4/sel4test
+39591506ce69b11178912250042600f9e7a55e6f		branch 'rt' of https://github.com/seL4/sel4test
+d5d49ec44aa1b5f4f509afb24be8a9325db51ac7	not-for-merge	tag 'v1.0.0' of https://github.com/seL4/sel4test
+019aa86422ebd7ffa18575909357b846f8cb8e81	not-for-merge	tag 'v1.0.1' of https://github.com/seL4/sel4test
